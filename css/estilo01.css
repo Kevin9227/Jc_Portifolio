@@ -1,0 +1,421 @@
+@font-face{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    src: url(../incons/css/fonts/Simple-Line-Icons.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family:   Calibri, 'Trebuchet MS', sans-serif;
+    ;
+}
+/* ESTILIZAÇÃO DO TOPO */
+.navbar{
+    /* background: rgba(18, 167, 241, 0.24); */
+    max-width: auto;
+    height: 50px;
+    -webkit-box-shadow: #000 0px 1px 10px 1px;
+    box-shadow: #000 0px 1px 10px 1px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size:11pt ;
+    text-transform: uppercase;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: rgb(69, 187, 241);
+  
+}
+.navbar a{
+    color: #fff;
+    padding: 10px;
+}
+.navbar-nav  a:hover{
+    color: rgb(69, 187, 241);
+    padding: 10px;
+}
+#menu {
+    width: auto;
+    background: #069;
+    -webkit-transition: 0.5s ease-out;
+    transition: 0.5s ease-out;
+}
+/* FIM DA ESTILIZAÇÃO */
+
+/* ESTILIZAÇÃO DAS DIVS */
+#container {
+    width: 100%;
+    height: 100vh;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+#Home {
+    background: #2F303A;/* -webkit-gradient(linear, left top, left bottom, from(rgba(20, 3, 172, 0.698)), to(rgb(0, 165, 194))) *//* , url('../img/ft.jpg')  ;*/
+   /*  background: linear-gradient(rgba(20, 3, 172, 0.698), rgb(0, 165, 194))/* , url('../img/ft.jpg')  ;*/
+  /*   background-size: cover;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 100vh;
+    z-index: 1;
+    
+}
+
+.img {
+    margin-left: 160px ;
+
+}
+.sobre{
+    width: auto;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    border-left: #fff solid 5px;
+    margin-top: 15vh;
+}
+.not {
+    color: transparent;
+}
+.card-text{
+    margin-left: 25px;
+    color: #fff;
+}
+.card-text p{
+    font-size: 18pt;
+    
+}
+.card-text span{
+    color:  #BC3A80;
+}
+
+#Sobre-me {
+    background: linear-gradient(rgb(47,48,58), rgba(0, 0, 0));
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    
+}
+
+.descri{
+    display: inline-flexbox;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; 
+    width: 100%;
+    color: ivory;
+    
+}
+.descri > p{
+    font-weight: 100;
+    font-size: 25pt;
+    text-align: center;
+    text-transform: uppercase;
+}
+.descri > h2 span{
+    font-weight: bold;
+    color: #BC3A80;
+    border-bottom: #fff groove 2px;
+}
+.descri > p span{
+    font-weight: bold;
+    color: #BC3A80;
+    border-bottom: #fff groove 2px;
+}
+.dados_pessoais{
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin: 0 150px 0 150px;
+    
+}
+.dados_pessoais i{
+    color: #BC3A80;
+}
+.dados_pessoais .text{
+    font-weight: bold;
+}
+.dados_pessoais p{
+    font-weight: none;
+    font-size: 10.5pt;
+}
+.dizer{
+    text-align: justify;
+    margin: 0 150px 0 150px;
+    width: 750px;
+    height: auto;
+    font-size: 10.5pt;
+}
+/* ESTILIZAÇÃO DO SCKILL */
+
+#container div#Skill {
+    background: linear-gradient(rgb(107, 8, 107),rgb(47,48,58));
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.sckill_desk div h1{
+    padding: 0;
+}
+.fa-html5{
+    color: orange;
+    padding-bottom:0 ;
+}
+.fa-tools{
+    color:rgb(12, 223, 65);
+}
+.fa-brush{
+    color: rgb(202, 28, 28);
+    
+}
+.fa-php{
+    color: rgb(0, 153, 255);
+}
+.sckill_S{
+   width: 850px;
+   text-align: center;
+   
+}
+.tit_skill{
+    position: relative;
+    color: #fff;
+    top: 50px;
+    left: -170px;
+    width: 750px;
+    text-transform: uppercase;
+    font-size: 15pt;
+}
+.tit_skill span{
+    font-weight: bold;
+    color: #BC3A80;
+    border-bottom: #fff groove 2px;
+}
+.sckill_desk{
+    display: flex;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    
+
+}
+.sckill_desk div{
+    padding: 20px;
+    color: #fff;
+    
+}
+.sckill_desk h1{
+    padding: 20px;
+    color: white;
+}
+.sckill_S
+/* FIM DA ESTILIZAÇÃO */
+#container div#Competencias {
+    background: green;
+    width: 100%;
+    height: 100vh;
+}
+
+#container div#educcao {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgb(0,0,0),rgba(15, 0, 14, 0.89),rgb(107, 8, 107));
+}
+#educcao h1{
+    position: relative;
+    color: #fff;
+    top: 70px;
+    left: 100px;
+    width: 750px;
+    text-transform: uppercase;
+    font-size: 23pt;
+}
+#educcao > h1 span{
+    font-weight: bold;
+    color: #BC3A80;
+    border-bottom: #fff groove 2px;
+    
+}
+.edca_dados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35vh;
+}
+.edc_conteudo{
+    top:15vh;
+    color:#fff;
+    font-size: 15pt;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 850px;
+}
+.icone{
+    padding-right: 55px;
+    color: #f5f4f6;
+}
+#container div#contacto {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgb(47,48,58),rgb(47,48,58), rgb(198, 13, 204));
+    
+}
+.contatc{
+    position: relative;
+    color: #fff;
+    top: 50px;
+    left: 100px;
+    width: 250px;
+    text-transform: uppercase;
+}
+.contatc span{
+    font-weight: bold;
+    color: #BC3A80;
+    border-bottom: #fff groove 2px;
+}
+.card_conta{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    color: #fff;
+}
+.card_c{
+    width:765px;
+}
+.btn{
+    width:765px ;
+}
+.card{
+    text-align: center;
+    font-size: 17pt;
+}
+/* REPOSIVIDADE GERAL DO SITE */
+@media(max-width:768px){
+    .navbar li{
+        display: inline-table;
+        color: #fff;
+        padding: 10px;
+    }
+    #Home {
+        
+        background-size: cover;
+        display: flex;
+        width: auto;
+        height: 100vh;
+    }
+    .sobre{
+        width: auto;
+        height: 250px;
+        display: flex;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        border-left: #fff solid 5px;
+        margin-top: -35vh;
+    }
+    .img {
+        margin-left: 0 ;
+        width: 450px;
+        height: 450px;
+    }
+    .img img {
+        width: 350px;
+        height: 350px;
+    }
+    .dados_pessoais{
+    display: table-footer-group;
+    align-items: center;
+    margin: 0;
+    border-bottom:solid 2px;
+    padding-bottom: 10px;
+    
+}
+    .descri{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: ivory;
+    height: auto;
+    width: auto;
+    padding-top: 10px;
+    
+}
+    .dizer{
+    text-align: justify;
+    margin: 0;
+    width: 450px;
+    height: auto;
+    display:flex;
+    text-align: center
+    
+}
+    #Sobre-me {
+    height: auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center
+}
+    .descri > p{
+    font-size: 25pt;
+    text-align: left;
+    text-transform: uppercase;
+    width: 425px;
+    text-align: center
+}
+    .descri > h2 {
+    width: 425px;
+    text-align: center
+}
+#container div#Sckill {
+    height: auto;
+}
+#container div#contacto {
+    height: auto;
+}
+.contatc{
+    position: relative;
+    top: 150px;
+    color:#fff;
+
+}
+.card_conta{
+    margin-top: 160px;
+}
+.card_c{
+    width:455px;
+}
+.btn{
+    width:455px ;
+}
+.sckill_desk{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.tit_skill{
+    color: #fff;
+    top: 0;
+    left: 0;
+    width: auto;
+    text-transform: uppercase;
+    text-align: center;
+}
+#educcao h1{
+    width: 350px;
+}
+}
+/* FIM DA RESPONSIVIDADE DO SITE... */
