@@ -301,6 +301,12 @@
 }
 /* REPOSIVIDADE GERAL DO SITE */
 @media(max-width:768px){
+    p{
+        font-size: 10pt;
+    }
+    h1{
+        font-size: 15pt;
+    }
     .navbar li{
         display: inline-table;
         color: #fff;
