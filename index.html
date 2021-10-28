@@ -55,7 +55,7 @@
             <div class="sobre">
               <div class="card-text" v-bind='teste'>
                   <p class="text">Olá, Eu sou</p>
-                  <h1 class="text">Joaquim de <span>Campos</span></h1>
+                  <h1 class="text nome" id="nome">Joaquim de Campos</h1>
                   <p class="text"><span>Desenvolvedor</span> Web, Blogueiro e Freelancer</p>
               </div>
               <div class="img">
@@ -193,6 +193,35 @@
 <script>
   var data = new Date();
    document.getElementById('data').innerHTML= data.getFullYear();
+   var texto ='Joaquim de Campos ';
+ /*   var txt =document.getElementById('nome');
+   var speed =550;
+   var cont =0;
+   function typeWriter(){
+     if(cont < texto.length){
+       txt.textContent += texto.charAt(cont);
+       cont++;
+       setTimeout(typeWriter,speed);
+     }else{
+       txt.textContent='';
+       cont =0;
+       typeWriter();
+     }
+   }
+   typeWriter(); */
+
+
+   function  typeWriter(element){
+     let letters = element.innerHTML.split('');
+     element.innerHTML = '';
+
+     letters.forEach((letter, index,letters) => {
+       setTimeout(()=> element.innerHTML += letter, 250 * index)
+     });
+   }
+   const text = document.querySelector('.nome');
+   typeWriter(text);
+
 
 </script>
 
