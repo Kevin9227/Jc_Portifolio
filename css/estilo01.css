@@ -312,11 +312,12 @@
     font-size: 17pt;
 }
 /* REPOSIVIDADE GERAL DO SITE */
-@media(max-width:768px){
+@media only screen and (max-width: 600px){
     p{
         font-size: 10pt;
+
     }
-    h1{
+    h1,h2{
         font-size: 15pt;
     }
     .navbar li{
@@ -408,17 +409,19 @@
     position: relative;
     top: 150px;
     color:#fff;
-
+    width: 250px;
+}
+.card_c {
+    width: 330px;
+}
+.btn{
+    width:330px ;
 }
 .card_conta{
     margin-top: 160px;
 }
-.card_c{
-    width:455px;
-}
-.btn{
-    width:455px ;
-}
+
+
 .sckill_desk{
     display: flex;
     justify-content: space-around;
@@ -437,3 +440,19 @@
 }
 }
 /* FIM DA RESPONSIVIDADE DO SITE... */
+
+#Home  input:checked  {
+    background: none;
+    background: red;
+    animation: anima .7s ease-in-out 4s backwards;
+}
+@keyframes anima{
+    0%{
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
