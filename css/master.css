@@ -6,34 +6,38 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
 header {
-   display: grid;
-    -webkit-box-pack:center;
-    -ms-flex-pack:center;
-    justify-content:center;
-   
+    display: grid;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
 }
 
 nav {
-display: -webkit-box;
-display: -ms-flexbox;
-display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-pack: end;
     -ms-flex-pack: end;
     justify-content: flex-end;
 
 
 }
+
 .menu {
-   
+
     background: #D8D8D8;
     height: 650px;
     width: 450px
 }
-.menu  ul{
- 
+
+.menu ul {
+
     margin-top: 60px
 }
+
 nav ul li {
     font-size: 16pt;
     font-weight: 500;
@@ -41,7 +45,7 @@ nav ul li {
     display: inline;
     margin: 20px;
     padding-top: 60.5px;
-  
+
 }
 
 nav ul li a {
@@ -50,11 +54,11 @@ nav ul li a {
 }
 
 .texto {
-   position: absolute;
-    margin-right: 48em;
-    margin-top: 164px;
-   
-   
+    position: absolute;
+    margin-right: 49em;
+    margin-top: 254px;
+
+
 }
 
 .texto h1 {
@@ -73,17 +77,19 @@ button {
     border: none;
 
 }
-article{
+
+article {
     display: grid;
-    -webkit-box-pack:center;
-    -ms-flex-pack:center;
-    justify-content:center;
-   
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
 }
-.work{
-    
+
+.work {
+
     width: 65rem;
-    margin-top: 150px;
+
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -95,21 +101,53 @@ article{
     -ms-flex-direction: row;
     flex-direction: row;
 }
-.coluna1{
+
+
+section {
+
+    margin-top: 150px;
+
+}
+
+.coluna1 {
     background: #fff;
 }
-.coluna1 h1{
+
+section h1 {
     font-size: 80px;
     font-weight: 700;
     color: #999999;
-}
-.coluna1-conteudo{
-    margin: 30px;
-    color: #999999;
-    
-}
-.coluna2{
-   
-    margin-top: 130px
+    margin-bottom: 40px
 }
 
+.coluna1-conteudo {
+    margin: 30px;
+    color: #999999;
+
+}
+
+.coluna1-conteudo p {
+    margin: 10px
+}
+
+.coluna2-conteudo {
+    margin: 30px;
+    color: #999999;
+
+}
+
+.coluna2-conteudo p {
+
+    margin: 20px 0;
+
+}
+
+.coluna2-conteudo a {
+    text-decoration: none;
+    background: #9999;
+    color: #444;
+    padding: 10px;
+    border-radius: 50px;
+    margin-right: 20px;
+    font-size: 10pt
+}
