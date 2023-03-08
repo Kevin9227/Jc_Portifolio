@@ -3,12 +3,12 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', 'Arial', 'Montserrat', sans-serif;
 }
 
 
 header {
-    display: grid;
+    display: ;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
@@ -22,20 +22,30 @@ nav {
     -webkit-box-pack: end;
     -ms-flex-pack: end;
     justify-content: flex-end;
+    width: 100%;
 
 
 }
 
-.menu {
+.nav-center {
+    display: grid;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
 
-    background: #D8D8D8;
+    width: 100%;
+    height:
+}
+
+.menu {
+    background: #30303030;
     height: 650px;
     width: 450px
 }
 
 .menu ul {
-
-    margin-top: 60px
+    margin-top: 60px;
+    margin-left: 60px
 }
 
 nav ul li {
@@ -51,18 +61,19 @@ nav ul li {
 nav ul li a {
     color: #000000;
     text-decoration: none;
+    text-shadow: 1px 2px 6px #888;
 }
 
 .texto {
     position: absolute;
-    margin-right: 49em;
-    margin-top: 254px;
+    margin-right: 45em;
+    margin-top: 150px;
 
 
 }
 
 .texto h1 {
-    font-size: 50pt;
+    font-size: 70pt;
     font-weight: 700;
     color: #999999;
 
@@ -122,12 +133,13 @@ section h1 {
 
 .coluna1-conteudo {
     margin: 30px;
-    color: #999999;
+    color: #555;
 
 }
 
 .coluna1-conteudo p {
-    margin: 10px
+    margin: 10px;
+    color: #999999;
 }
 
 .coluna2-conteudo {
@@ -144,10 +156,237 @@ section h1 {
 
 .coluna2-conteudo a {
     text-decoration: none;
-    background: #9999;
+    background: #30303030;
     color: #444;
     padding: 10px;
     border-radius: 50px;
     margin-right: 20px;
     font-size: 10pt
+}
+
+/* ESTILIZAR PROJECTO */
+.projeto {
+    display: grid;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 60px
+}
+
+.projeto1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-box-pack: justify;
+
+    -ms-flex-pack: justify;
+
+    justify-content: space-between;
+
+    -ms-flex-line-pack: center;
+
+    align-content: center;
+    margin: 60px;
+}
+
+.projeto2 {
+    margin: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-line-pack: center;
+    align-content: center;
+}
+
+.projeto3 {
+    margin: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-line-pack: center;
+    align-content: center;
+}
+
+.titulo_projeto {
+    padding: 60px;
+}
+
+.titulo_projeto h1 {
+    font-size: 80px;
+    font-weight: 700;
+    color: #999999;
+
+}
+
+.projeto_texto {
+    width: 450px;
+    margin: 40px
+}
+
+.projeto_texto h2 {
+    font-size: 40pt;
+    padding: 10px;
+    color: #555;
+}
+
+.projeto_texto p {
+    padding: 20px;
+    text-align: justify;
+    color: #999;
+    line-height: 30px
+}
+
+
+.imag img {
+    width: 550px;
+    height: 350px
+}
+
+/* ESTILIZAR SOBRE */
+.sobre {
+    display: grid;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 0px;
+
+
+
+}
+
+.titulo_sobre {
+    margin: 0px;
+    width: 70rem
+}
+
+
+.titulo_sobre h1 {
+    margin: 40px 0;
+    font-size: 80px;
+    font-weight: 700;
+    color: #999999;
+}
+
+.titulo_sobre p {
+
+    color: #999;
+    font-size: 14pt;
+    font-weight: normal;
+    line-height: 40px;
+    margin: 60px 0
+}
+
+.banner {
+    display: grid;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 70rem;
+
+}
+
+.banner_img {
+    background: url("../img/baner.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 70rem;
+    height: 250px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    color: aliceblue
+}
+
+.card_contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #999;
+    font-size: 14pt;
+
+}
+
+.contactos {
+    background: #069;
+    width: 270px;
+    padding: 20px;
+    height: 200px;
+    margin: -10% 0 0 10%;
+    color: #fff;
+}
+
+.outro {
+    width: 550px;
+    margin: 60px 0 0;
+    line-height: 40px
+}
+
+
+.card_contact h4 {
+    margin: 10px 0;
+}
+
+.outro_texto {
+    color: #999;
+    font-size: 14pt;
+    margin: 60px 0 0;
+    line-height: 40px
+}
+
+
+footer {
+    display: grid;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #f2f2f2f3;
+    height: 150px;
+    margin: 80px 0 0;
+    text-align: center;
+
+}
+
+@media screen and (max-width: 750px) {
+    .projeto {
+        display: inline-block;
+
+
+
+    }
+
+    .imag img {
+        width: 250px;
+        height: 250px;
+        margin: 20px
+    }
+
+    .projeto_texto h2 {
+        font-size: 20pt;
+        padding: 5px;
+        color: #555;
+    }
+
+    .projeto p {
+        font-size: 10pt;
+    }
+
 }
