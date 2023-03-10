@@ -4,7 +4,10 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', 'Arial', 'Montserrat', sans-serif;
+
 }
+
+
 
 
 header {
@@ -13,6 +16,10 @@ header {
     -ms-flex-pack: center;
     justify-content: center;
 
+}
+
+body {
+    overflow-x: hidden;
 }
 
 nav {
@@ -177,17 +184,17 @@ section h1 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-
     -webkit-box-pack: justify;
-
     -ms-flex-pack: justify;
-
     justify-content: space-between;
-
     -ms-flex-line-pack: center;
-
     align-content: center;
-    margin: 60px;
+    margin: 60px -60% 0;
+    -webkit-transition: 3s;
+    -webkit-transition: 0.3s;
+    -webkit-transition: 0.5s;
+    -webkit-transition: 0.9s;
+    transition: 0.9s
 }
 
 .projeto2 {
@@ -227,7 +234,10 @@ section h1 {
 
 .projeto_texto {
     width: 450px;
-    margin: 40px
+    margin: 40px;
+    -webkit-transition: 0.9S;
+    transition: 0.9S;
+
 }
 
 .projeto_texto h2 {
